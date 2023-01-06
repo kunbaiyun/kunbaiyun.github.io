@@ -108,6 +108,12 @@ if (m == 3 && dd == 1) {//艾拉生日
         sessionStorage.setItem("isPopupWindow", "1");
     }
 }
+if (m == 3 && dd == 31) {//栗山未来生日
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("没有未来的未来不是我想要的未来");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
 
 //传统节日部分
 
