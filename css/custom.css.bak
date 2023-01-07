@@ -23,22 +23,13 @@
 #footer {
   background: transparent !important;
 }
-#index_img {
-  background: transparent !important;
-}
 
 /* 白天模式遮罩透明 */
 #footer::before {
   background: transparent !important;
 }
-#index_img::before {
-  background: transparent !important;
-}
 
 /* 夜间模式遮罩透明 */
 [data-theme="dark"] #footer::before {
-  background: transparent !important;
-}
-[data-theme="dark"] #index_img::before {
   background: transparent !important;
 }
