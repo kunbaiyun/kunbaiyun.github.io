@@ -23,7 +23,7 @@
 #footer {
   background: transparent !important;
 }
-#disable_top_img {
+#index_img {
   background: transparent !important;
 }
 
@@ -31,7 +31,7 @@
 #footer::before {
   background: transparent !important;
 }
-#page-header::before {
+#index_img::before {
   background: transparent !important;
 }
 
@@ -39,6 +39,6 @@
 [data-theme="dark"] #footer::before {
   background: transparent !important;
 }
-[data-theme="dark"] #page-header::before {
+[data-theme="dark"] #index_img::before {
   background: transparent !important;
 }
