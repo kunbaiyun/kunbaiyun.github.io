@@ -59,7 +59,7 @@
 #aside-content .card-widget {
   background: var(--trans-light);
   backdrop-filter: var(--backdrop-filter);
-  border-radius: 18px;
+  border-radius: 15px;
   border: var(--border-style);
 }
 
