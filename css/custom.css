@@ -119,21 +119,28 @@ div#archive {
   color: #ffffff;
 }
 
-/* 全局宽度 */
-.layout {
-  max-width: 1400px;
+/*背景*/
+#web_bg {
+  background: url(https://i.328888.xyz/2023/01/08/kaW4A.jpeg); #浅色模式背景图
 }
-
-/* 侧边卡片栏宽度 */
-.aside-content {
-  max-width: 318px;
-  min-width: 300px;
+@media screen and (max-width:860px) {
+  #web_bg {
+background: url(../img/shouji.jpeg); #浅色模式手机背景图
 }
-
-/* 平板尺寸自适应(不启用侧边栏宽度限制) */
-@media screen and (max-width: 900px) {
-  .aside-content {
-    max-width: none !important;
-    padding: 0 5px 0 5px;
-  }
+}
+[data-theme='dark'] #web_bg {
+  background: url(https://i.328888.xyz/2023/01/08/kaW4A.jpeg); #深色模式背景图
+}
+@media screen and (max-width:860px) {
+  [data-theme='dark'] #web_bg {
+background: url(https://i.328888.xyz/2023/01/09/0lz3c.jpeg); #深色模式手机背景图
+}
+}
+[data-theme='dark'] #web_bg,#web_bg{
+           background-attachment: local;
+           background-position: center;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           background-size: cover;
+           background-repeat: no-repeat;
 }

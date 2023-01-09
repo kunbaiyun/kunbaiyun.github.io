@@ -118,3 +118,29 @@ div#archive {
   background: rgba(25, 25, 25, 0.9) !important;
   color: #ffffff;
 }
+
+/*背景*/
+#web_bg {
+  background: url(https://i.328888.xyz/2023/01/08/kaW4A.jpeg); #浅色模式背景图
+}
+@media screen and (max-width:860px) {
+  #web_bg {
+background: url(../img/shouji.jpeg); #浅色模式手机背景图
+}
+}
+[data-theme='dark'] #web_bg {
+  background: url(https://i.328888.xyz/2023/01/08/kaW4A.jpeg); #深色模式背景图
+}
+@media screen and (max-width:860px) {
+  [data-theme='dark'] #web_bg {
+background: url(../img/yshouji.jpeg); #深色模式手机背景图
+}
+}
+[data-theme='dark'] #web_bg,#web_bg{
+           background-attachment: local;
+           background-position: center;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           background-size: cover;
+           background-repeat: no-repeat;
+}
