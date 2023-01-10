@@ -133,7 +133,7 @@ background: url(/img/a.jpg); #浅色模式手机背景图
 }
 @media screen and (max-width:860px) {
   [data-theme='dark'] #web_bg {
-background: url(https://i.328888.xyz/2023/01/09/02FeV.jpeg); #深色模式手机背景图
+background: url(/img/b.jpg); #深色模式手机背景图
 }
 }
 [data-theme='dark'] #web_bg,#web_bg{
