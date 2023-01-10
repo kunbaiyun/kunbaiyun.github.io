@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/2023/01/11/3/"/>
+      <url>/2023/01/11/3/</url>
+      
+        <content type="html"><![CDATA[<p>测试iframe插入外链bilibili视频html</p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=592462123&bvid=BV1qq4y127um&cid=465498489&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" ></iframe></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/12/26/hello-world/"/>
       <url>/2022/12/26/hello-world/</url>
@@ -20,17 +33,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<p>I’m just a cheems</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>友链</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
@@ -42,11 +44,22 @@
     
     
     <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<p>I’m just a cheems</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电影</title>
       <link href="/movies/index.html"/>
       <url>/movies/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=423316122&bvid=BV1W3411Y72i&cid=487730464&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" ></iframe></div>]]></content>
       
     </entry>
     
@@ -57,7 +70,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-YakQLdJF" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8042123495" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-yrWBDOTk" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8042123495" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
