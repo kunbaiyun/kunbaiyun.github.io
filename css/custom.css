@@ -121,7 +121,7 @@ div#archive {
 
 /*背景*/
 #web_bg {
-  background: url(https://i.328888.xyz/2023/01/08/kaW4A.jpeg); #浅色模式背景图
+  background: url(/img/apc.jpg); #浅色模式背景图
 }
 @media screen and (max-width:860px) {
   #web_bg {
