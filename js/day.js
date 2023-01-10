@@ -114,6 +114,12 @@ if (m == 3 && dd == 31) {//栗山未来生日
         sessionStorage.setItem("isPopupWindow", "1");
     }
 }
+if (m == 6 && dd == 12) {//六花生日
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("爆裂吧，现实！粉碎吧，精神！Vanishment this world!");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
 
 //传统节日部分
 
